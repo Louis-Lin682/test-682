@@ -26,13 +26,6 @@ $(document).ready(function(e){
 		$(this).closest('div').siblings('ul').toggleClass('active');
 	})
 
-	// slider //
-
-
-	$('.dropdown button').click(function(){
-		$('.dropdown-menu').toggleClass('show');	
-	})
-
 	//delete and cancel button
 
 	$('.delete').on('click', function(){
