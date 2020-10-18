@@ -1512,6 +1512,7 @@ textarea.form-control {
 .header-bar .container {
     justify-content: space-between;
     display: flex;
+    align-items: baseline;
 }
 
 .header-bar .breadcrumb {
@@ -2090,7 +2091,7 @@ input.form-control.rounded-0 {
 
 }
 
-@media (max-width: 399px) {
+@media (max-width: 481px) {
     #blog-detail .header-bar .container {
         text-align: center;
         justify-content: center;
