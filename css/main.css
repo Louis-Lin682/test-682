@@ -36,7 +36,7 @@ ul.d-flex.list-unstyled {
 }
 
 .nav.active {
-    display: block;
+    display: flex;
 }
 
 .nav a {
@@ -1517,6 +1517,7 @@ textarea.form-control {
 
 .header-bar .breadcrumb {
     margin: 0;
+    background: #eee;
 }
 
 .header-bar a {
@@ -1627,6 +1628,7 @@ textarea.form-control {
 
 #blog-detail .comments img {
     height: auto;
+    width: 100px;
 }
 
 .comment {
@@ -2092,6 +2094,11 @@ input.form-control.rounded-0 {
 }
 
 @media (max-width: 481px) {
+
+    .categories-bl {
+        margin-top: 30px;
+    }
+
     #blog-detail .header-bar .container {
         text-align: center;
         justify-content: center;
@@ -2101,6 +2108,10 @@ input.form-control.rounded-0 {
     #blog-detail .breadcrumb,
     #blog-detail .header-bar .right {
         justify-content: center;
+    }
+
+    #blog-detail .header-bar .right {
+        padding-top: 0;
     }
 
     #blog-detail .date {
