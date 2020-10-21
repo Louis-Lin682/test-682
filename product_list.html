@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>product-list</title>
 
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
@@ -14,12 +15,15 @@
 
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="slick/slick.min.js"></script>
     <script src="js/popper.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/range.js"></script>
     <script src="js/active.js"></script>
 
 </head>
 
-<body>
+<body id="product-list">
     <div id="header">
         <div class="header-top bg-dark">
             <div class="container">
@@ -260,7 +264,9 @@
                 <div class="row">
                     <div class="col-md-3 slide">
                         <div class="filter">
-                            <div class="close-menu  text-right"></div>
+                            <div class="close-menu  text-right">
+                                <i class="icon-cancel"></i>
+                            </div>
                             <h5 class="title text-uppercase">filter</h5>
                             <div class="filter-brands">
                                 <div class="subtitle">Filter by Brands</div>
@@ -351,7 +357,9 @@
                         </div>
 
                         <div class="categories">
-                            <div class="close-menu text-left"></div>
+                            <div class="close-menu text-left">
+                                <i class="icon-cancel"></i>
+                            </div>
                             <h5 class="title">categories</h5>
                             <ul class="list-unstyled">
                                 <li class="d-flex justify-content-between">
@@ -488,11 +496,11 @@
                                         <a class="dropdown-item" type="button">Something else here</a>
                                     </div>
                                 </li>
-                                <li class="icon-button"><button type="button" class="btn btn-outline-dark">
+                                <li class="icon-button"><button type="button" class="fliter btn btn-outline-dark">
                                         <i class="icon-th"></i>
                                     </button>
                                 </li>
-                                <li class="icon-button"><button type="button" class="btn btn-outline-dark">
+                                <li class="icon-button"><button type="button" class="categoried btn btn-outline-dark">
                                         <i class="icon-list"></i>
                                     </button>
                                 </li>
