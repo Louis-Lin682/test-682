@@ -1837,14 +1837,16 @@ span.price {
     left: 0;
 }
 
-.info-right i {
-    color: #a1a1a1;
+#Checkout .info a,
+#shopping_cart .info a {
+    color: #4b4b4b;
 }
+
 
 .info-right li+li::before {
     content: "|";
     padding: 0 10px;
-    color: #a1a1a1;
+    color: #4b4b4b;
 }
 
 .page-title {
@@ -2032,6 +2034,25 @@ input.form-control.rounded-0 {
 
 .total-item {
     color: #cdcdcd;
+}
+
+/* Checkout */
+
+#Checkout #header {
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+#Checkout .page-title {
+    background-image: url(../img/checkout.png);
+    background-size: cover;
+    background-position: 50%;
+}
+
+#Checkout .breadcrumb,
+#Checkout ul {
+    background: transparent;
 }
 
 /* RESPONSIVE */
