@@ -2055,6 +2055,114 @@ input.form-control.rounded-0 {
     background: transparent;
 }
 
+#Checkout .billing {
+    margin-top: 60px;
+}
+
+#Checkout .form-control {
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+#Checkout .billing .col-md-6 {
+    padding: 0 30px;
+}
+
+#Checkout .billing .col-md-6 h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#Checkout label.custom-control-label {
+    text-transform: uppercase;
+}
+
+#Checkout input.form-control {
+    margin-bottom: 0;
+}
+
+#Checkout .form-group.custom-control.custom-checkbox {
+    font-size: 12px;
+}
+
+#Checkout .bg-gray {
+    background: #f6f6f6;
+    padding: 60px;
+}
+
+.product-content {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 0;
+    color: #979797;
+}
+
+.order ul {
+    line-height: 18px;
+}
+
+.order-menu .product-item {
+    color: #979797;
+}
+
+.order-menu li:first-child {
+    border-bottom: 0;
+}
+
+#Checkout .total-detail {
+    padding: 0;
+}
+
+.bg-gray>ul {
+    line-height: 2.2rem;
+}
+
+#Checkout .payment .form-check {
+    padding-left: 0;
+}
+
+#Checkout .payment .form-check-input {
+    right: 0;
+}
+
+#Checkout .payment .form-check-label,
+.method-info p {
+    text-transform: capitalize;
+    font-size: 12px;
+    font-weight: 500;
+    color: #979797;
+}
+
+#Checkout .method-info {
+    padding: 7px 0;
+    border-bottom: 1px solid #dcddcd;
+}
+
+#Checkout .method-info:last-child {
+    border-bottom: 0;
+}
+
+#Checkout .terms {
+    font-size: 12px;
+    margin-top: 15px;
+    color: #808080;
+}
+
+#Checkout .terms {
+    padding-left: 60px;
+}
+
+#Checkout .form-check-input {
+    right: 60px;
+}
+
+#Checkout button.btn {
+    float: right;
+    margin-top: 20px;
+}
+
 /* RESPONSIVE */
 
 @media (max-width: 992px) {
@@ -2136,6 +2244,34 @@ input.form-control.rounded-0 {
 
     #product-list .close-menu {
         display: block;
+    }
+
+    #Checkout .form-check-label {
+        display: grid;
+    }
+
+    #Checkout button.btn {
+        margin-top: 20px;
+    }
+
+    #Checkout .bg-gray {
+        padding: 20px;
+    }
+
+    #Checkout .form-check-input {
+        right: 20px;
+    }
+
+    #Checkout .terms {
+        padding-left: 20px;
+    }
+
+    #Checkout .terms .form-check-input {
+        top: 10px;
+    }
+
+    #Checkout .payment .form-check-input {
+        top: 0px;
     }
 
 }
@@ -2222,6 +2358,26 @@ input.form-control.rounded-0 {
     .comment-rp {
         margin-left: calc(30px + 1px);
     }
+
+    /* #Checkout button.btn {
+        margin-top: 20px;
+    }
+
+    #Checkout .bg-gray {
+        padding: 20px;
+    }
+
+    #Checkout .form-check-input {
+        right: 20px;
+    }
+
+    #Checkout .terms {
+        padding-left: 20px;
+    }
+
+    #Checkout .form-check-label {
+        display: grid;
+    } */
 }
 
 .btn-tap {
