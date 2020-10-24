@@ -11,7 +11,7 @@ $(document).ready(function(e){
 		$('#header').find('.nav').toggleClass('active');
 	})
 
-	$('.cart').click(function(){
+	$('.shopping-list').click(function(){
 		$('.panel').addClass('show');
 		$('.cover').fadeIn();		
 	})
@@ -26,12 +26,12 @@ $(document).ready(function(e){
 		$(this).closest('div').siblings('ul').toggleClass('active');
 	})
 
-	$('i.icon-th').click(function(){
+	$('.icon-button.fliter').click(function(){
 		$('.filter').addClass('show');
 		$('.cover').fadeIn();
 	})
 
-	$('#product-list i.icon-list').click(function(){
+	$('.icon-button.categoried').click(function(){
 		$('.categories').addClass('show');
 		$('.cover').fadeIn();
 	})
@@ -53,7 +53,20 @@ $(document).ready(function(e){
 		else {
 			$(this).toggleClass('btn-tap');			
 		}
-    })
+	})
+	
+	$('.search').click(function(){
+		$('.search-panel').addClass('show');
+		$('.cover').fadeIn();		
+	})
+
+	$('.cover, .close-search').click(function(e){
+		e.stopPropagation();
+		$('.search-panel').removeClass('show');
+		$('.cover').fadeOut();
+	})
+
+	
 
 	//delete and cancel button
 
