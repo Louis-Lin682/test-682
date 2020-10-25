@@ -5,6 +5,10 @@ $(document).ready(function(e){
 		$('#popup').fadeOut();
 	});
 
+	$('#popup .popup-content').click(function (e) {
+		e.stopPropagation();
+	});
+
 	// nav menu //
 
 	$('.menu').click(function(){
